@@ -11,8 +11,8 @@ first_leg = float(input("What is the first leg on the triangle: "))
 second_leg = float(input("What is the second leg on the triangle: "))
 
 #Calculate and round
-hypotonuse = round(math.sqrt(first_leg**2 + second_leg**2) , 2)
-area = round((first_leg * second_leg) / 2 , 2)
+hypotonuse = round(math.sqrt(first_leg**2 + second_leg**2) , 3)
+area = round((first_leg * second_leg) / 2 , 3)
 
 #output
 print(f"For a trinagle with legs of {str(first_leg)} and {str(second_leg)} the hypotenuse is {str(hypotonuse)}")
