@@ -2,6 +2,7 @@
 #author (Isaiah Magana)
 #
 #Main.py
+import math
 
 print("Welcome to the Right Triangle Solver App")
 
@@ -10,7 +11,7 @@ first_leg = float(input("What is the first leg on the triangle: "))
 second_leg = float(input("What is the second leg on the triangle: "))
 
 #Calculate and round
-hypotonuse = round(first_leg**2 + second_leg**2 , 2)
+hypotonuse = round(math.sqrt(first_leg**2 + second_leg**2) , 2)
 area = round((first_leg * second_leg) / 2 , 2)
 
 #output
